@@ -7,13 +7,13 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-white text-red-900 font-sans">
-<header class="flex justify-between items-center bg-red-700 text-white px-8 py-4 shadow-md">
-  <div class="flex items-center space-x-4">
-    <img src="1.png" alt="Logo" class="logo w-20 h-20 object-contain">
-    <h1 class="text-3xl font-semibold">The Learners Academy</h1>
+<header class="flex flex-col sm:flex-row justify-between items-center bg-red-700 text-white px-4 sm:px-8 py-4 space-y-2 sm:space-y-0 sm:space-x-4 shadow-md text-center sm:text-left">
+  <div class="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4">
+    <img src="1.png" alt="Logo" class="logo w-20 h-20 object-contain mx-auto sm:mx-0">
+    <h1 class="text-2xl sm:text-3xl font-semibold">The Learners Academy</h1>
   </div>
   <div>
-    <h3><strong>STUDENT VERIFICATION PAGE</strong></h3>
+    <h3 class="text-sm sm:text-base font-bold">STUDENT VERIFICATION PAGE</h3>
   </div>
 </header>
 
@@ -45,18 +45,18 @@
   </main>
 
 
-  <footer class="bg-red-700 text-white py-6 mt-12">
-    <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 px-8">
-      <div>
-        <h3 class="font-semibold mb-2">Address</h3>
-        <p>Learners Academy,<br>6-9/381 Dr Ghulam Nabi Road Near Musa Checkpost</p>
-      </div>
-      <div>
-        <h3 class="font-semibold mb-2">Phone</h3>
-        <p>+92 331 3850312</p>
-      </div>
+<footer class="bg-red-700 text-white py-6 mt-12">
+  <div class="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6 px-4 sm:px-8 text-center sm:text-left">
+    <div>
+      <h3 class="font-semibold mb-2">Address</h3>
+      <p>Learners Academy,<br>6-9/381 Dr Ghulam Nabi Road Near Musa Checkpost</p>
     </div>
-  </footer>
+    <div>
+      <h3 class="font-semibold mb-2">Phone</h3>
+      <p>+92 331 3850312</p>
+    </div>
+  </div>
+</footer>
 
   <style>
     .text-gold-600 {
